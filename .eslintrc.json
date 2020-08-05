@@ -1,0 +1,4 @@
+{
+  "extends": ["plugin:adonis/typescriptApp"],
+  "quotes": ["error", "single", { "allowTemplateLiterals": true }]
+}

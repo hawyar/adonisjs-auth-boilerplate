@@ -1,0 +1,16 @@
+@layout('layouts/dashboard')
+
+  @section('content')
+
+    <h1>Dashboard</h1>
+
+    @if(user)
+  <h1> Hello {{ user.charAt(0).toUpperCase() + user.slice(1) }} </h1>
+
+@else
+  <h1> Hello Guest! </h1>
+@endif
+@endsection
+  
+
+
